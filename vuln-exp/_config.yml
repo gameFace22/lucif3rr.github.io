@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        none
+
+# Setup
+title:            OWTF
+tagline:          'Botnet Masala'
+description:      'OWASP OWTF, the Offensive (Web) Testing Framework, is an OWASP+PTES-focused try to unite great tools and make pen testing more efficient. '
+url:              http://owtf.org
+
+author:
+  name:           'Abraham Aranguren'
+  url:            https://twitter.com/_7a
+
+paginate:         5
+
+# Custom vars
+version:          0.45
+
+github:
+  repo:           https://github.com/owtf/owtf
