@@ -8,14 +8,14 @@ Authentication is the act of establishing something (or someone) as authentic, t
 Description
 -----------------
 Authentication is commonly performed by submitting a username or ID and one or more items of private information that only the user should know. 
-To know more about authentication guidelines, see:- [<i class="icon-share"></i> OWASP Guide](https://www.owasp.org/index.php/Guide_to_Authentication).
+To know more about authentication guidelines, see:- [OWASP Guide](https://www.owasp.org/index.php/Guide_to_Authentication).
 Sessions are maintained on the server by a session identifier which can be passed back and forward between the client and server when transmitting and receiving requests. 
 Mitigation
 ---------------
 Use an authentication framework or library such as the OWASP ESAPI Authentication feature.
-[<i class="icon-share"></i> OWASP Top Ten](https://www.owasp.org/index.php/Top_10_2013-A2-Broken_Authentication_and_Session_Management)
-For authentication some guidelines are to be followed like giving proper usernames and passwords. [<i class="icon-share"></i> Authenticatio General Guidelines](https://www.owasp.org/index.php/Authentication_Cheat_Sheet#Authentication_General_Guidelines)
-Session management is directly related to authentication. For more guidelines on session management, see:-[<i class="icon-share"></i> Session Management cheatsheet](https://www.owasp.org/index.php/Session_Management_Cheat_Sheet) 
+[OWASP Top Ten](https://www.owasp.org/index.php/Top_10_2013-A2-Broken_Authentication_and_Session_Management)
+For authentication some guidelines are to be followed like giving proper usernames and passwords. [ Authenticatio General Guidelines](https://www.owasp.org/index.php/Authentication_Cheat_Sheet#Authentication_General_Guidelines)
+Session management is directly related to authentication. For more guidelines on session management, see:-[Session Management cheatsheet](https://www.owasp.org/index.php/Session_Management_Cheat_Sheet) 
 CVSS Base Score:
 ----------------------------
-[<i class="icon-share"></i> 5.8(AV:N/AC:M/AU:N/C:P/I:P/A:N)](http://nvd.nist.gov/cvss.cfm?vector=(AV:N/AC:M/AU:N/C:P/I:P/A:N)&version=2.0) 
+[5.8(AV:N/AC:M/AU:N/C:P/I:P/A:N)](http://nvd.nist.gov/cvss.cfm?vector=(AV:N/AC:M/AU:N/C:P/I:P/A:N)&version=2.0) 
