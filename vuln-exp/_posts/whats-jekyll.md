@@ -1,12 +1,26 @@
 ---
 layout: post
-title: What's Jekyll?
+title: Cross Site Request Forgery (CSRF)
 ---
 
-[Jekyll](http://jekyllrb.com) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From [the project's readme](https://github.com/mojombo/jekyll/blob/master/README.markdown):
+Synopsis
+--------------
+CSRF is an attack which forces an end user to execute unwanted actions on a web application in which he/she is currently authenticated.
 
-  > Jekyll is a simple, blog aware, static site generator. It takes a template directory [...] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.
+Description:
+------------------
+CSRF attack occurs when a malicious Web site, email, blog, instant message, or program causes a user’s Web browser to perform an unwanted action on a trusted site for which the user is currently authenticated. CSRF attacks generally target functions that cause a state change on the server but can also be used to access sensitive data.
+To know more about CSRF visit:- [ OWASP Guide on Cross-Site Request Forgery](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF))
 
-It's an immensely useful tool and one we encourage you to use here with Hyde.
+Mitigation
+---------------
+Using a Synchronizer Token is one way that an application can rely upon the Same-Origin Policy to prevent CSRF by maintaining a secret token to authenticate requests. To know more:- [Cross-Site Request Forgery Prevention Cheatsheet](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet#General_Recommendation:_Synchronizer_Token_Pattern).
 
-Find out more by [visiting the project on GitHub](https://github.com/mojombo/jekyll).
+For see:- [ CSRF prevention without Synchronizer token](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet#CSRF_Prevention_without_a_Synchronizer_Token)
+
+[OWASP Top 10:](https://www.owasp.org/index.php/Top_10_2013-A8-Cross-Site_Request_Forgery_(CSRF))
+
+CVSS Base Score:
+----------------
+
+[6.8(AV:N/AC:M/AU:N/C:P/I:P/A:P)](http://nvd.nist.gov/cvss.cfm?vector=%28AV:N/AC:M/AU:N/C:P/I:P/A:P%29&version=2.0)
