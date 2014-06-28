@@ -22,5 +22,5 @@ Use an authentication framework or library such as the OWASP ESAPI Authenticatio
 For authentication some guidelines are to be followed like giving proper usernames and passwords. [ Authenticatio General Guidelines](https://www.owasp.org/index.php/Authentication_Cheat_Sheet#Authentication_General_Guidelines)
 Session management is directly related to authentication. For more guidelines on session management, see:-[ Session Management cheatsheet](https://www.owasp.org/index.php/Session_Management_Cheat_Sheet) 
 CVSS Base Score:
-----------------------------
+---------------------------- 
 [5.8(AV:N/AC:M/AU:N/C:P/I:P/A:N)](http://nvd.nist.gov/cvss.cfm?vector=(AV:N/AC:M/AU:N/C:P/I:P/A:N)&version=2.0) 
