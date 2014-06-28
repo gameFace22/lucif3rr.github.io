@@ -1,10 +1,7 @@
 ---
 layout: post
-title: Introducing Hyde
+title: Clickjacking
 ---
-Clickjacking
-==========
-
 
 Synopsis:
 ----------------
