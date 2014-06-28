@@ -17,7 +17,7 @@ Mitigation:
 Include "frame-breaking" functionality which prevents other web pages from framing the site you wish to defend. 
 To know more about implementing frame-breaking visit :- [Clickjacking Defence Cheat Sheet](https://www.owasp.org/index.php/Clickjacking_Defense_Cheat_Sheet)
 
-To view details on the testing of clickjacking visit:- [ Testing for Clickjacking](https://www.owasp.org/index.php/Testing_for_Clickjacking_(OWASP-CS-004))
+To view details on the testing of clickjacking visit:- [ Testing for Clickjacking](https://www.owasp.org/index.php/Testing_for_Clickjacking_(OWASP-CS-004)) 
 
 CVSS Base Score:
 ----------------
