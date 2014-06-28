@@ -1,10 +1,7 @@
 ---
 layout: post
-title: Example content
+title: Authentication and Session Management
 ---
-
-Authentication and Session Management
-========================
 
 Synopsis
 ---------------
