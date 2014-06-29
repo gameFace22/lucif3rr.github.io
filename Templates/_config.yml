@@ -1,4 +1,4 @@
-baseurl:          /Template
+baseurl:          /Templates
 
 # Dependencies
 markdown:         redcarpet
