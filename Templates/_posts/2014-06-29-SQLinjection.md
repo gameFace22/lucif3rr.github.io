@@ -12,6 +12,7 @@ Description:
 A successful SQL injection exploit can read sensitive data from the database, modify database data (Insert/Update/Delete), execute administration operations on the database (such as shutdown the DBMS), recover the content of a given file present on the DBMS file system and in some cases issue commands to the operating system.
 
 For more details:- [OWASP guide on SQL Injection](https://www.owasp.org/index.php/SQL_Injection) 
+
 Also see:-[mitre definitions](http://cwe.mitre.org/data/definitions/89.html)
 
 Mitigation:
