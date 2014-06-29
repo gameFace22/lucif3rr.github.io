@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Authentication and Session Management
+title: Authentication & Sessions
 ---
 
 Synopsis
