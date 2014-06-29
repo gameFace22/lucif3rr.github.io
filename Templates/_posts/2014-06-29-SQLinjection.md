@@ -13,17 +13,16 @@ A successful SQL injection exploit can read sensitive data from the database, mo
 
 For more details:- [OWASP guide on SQL Injection](https://www.owasp.org/index.php/SQL_Injection) 
 
+Also see:-[mitre definitions](http://cwe.mitre.org/data/definitions/89.html)
+
 Mitigation:
 ----------------
 Prevent user supplied input which contains malicious SQL from affecting the logic of the executed query.
 Use persistence layers such as Hibernate or Enterprise Java Beans, which can provide significant protection against SQL injection if used properly.
 
-For more details:-[mitre definitions](http://cwe.mitre.org/data/definitions/89.html) 
+For more details:-[Testing for SQL injection attacks](https://www.owasp.org/index.php/Testing_for_SQL_Injection_(OWASP-DV-005))
 
-For more details:-[Prevention cheat sheet](https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet) 
-
-For more details:-[Testing for SQL injection attacks](https://www.owasp.org/index.php/Testing_for_SQL_Injection_(OWASP-DV-005)) 
-
+See SQL-Injection [Prevention cheat sheet](https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet) 
 
 
 CVSS Base Score:

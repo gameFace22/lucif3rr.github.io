@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Insufficient Transport Layer Protection
+title: Transport Layer Protection
 ---
 
 Synopsis:
@@ -19,7 +19,7 @@ Implement HTTP Strict Transport Security in all browsers, which makes it possibl
 
 For more details:- [Insufficient Transport Layer Protection](https://www.owasp.org/index.php/OWASP_Periodic_Table_of_Vulnerabilities_-_Insufficient_Transport_Layer_Protection) 
 
-[Top 10 2010 A9 Insufficient Transport Layer Protection](https://www.owasp.org/index.php/Top_10_2010-A9-Insufficient_Transport_Layer_Protection) 
+[OWASP Top 10 2010 A9 Insufficient Transport Layer Protection](https://www.owasp.org/index.php/Top_10_2010-A9-Insufficient_Transport_Layer_Protection) 
 
 CVSS Base Score:
 ----------------------------
