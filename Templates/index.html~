@@ -5,4 +5,4 @@ title: Home
 
 {% assign page = site.posts.first %}
 {% assign content = page.content %}
-{% include /Templates/_posts/post.html %}
+{% include post.html %}
