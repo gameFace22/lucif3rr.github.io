@@ -1,3 +1,4 @@
 name: OWASP OWTF
 markdown: redcarpet
 pygments: true
+permalink: none
