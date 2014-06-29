@@ -1,0 +1,52 @@
+
+/* severity buttons style */
+.sev-no {
+	color: #000;
+}
+.sev-low {
+	color: #400;
+}
+.sev-med {
+	color: #800;
+}
+.sev-hi {
+	color: #C00;
+}
+.sev-critic {
+	color: #F00;
+}
+
+body { 
+        padding-top: 0px;
+	margin:0px;
+}
+
+.page-header{
+
+	padding-left:20px;
+	padding-top:0px;
+	margin:0px;
+	padding-bottom:0px	
+}
+
+
+
+.pain{
+	padding-left:65px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.pain li{
+	padding-bottom:10px;
+}
+
+
+.wrappedPre {
+        overflow: auto;
+        overflow-x: auto;
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        word-wrap: normal;
+        white-space : normal;
+}

@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Help Links</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="OWASP OWTF Summary Report">
+<meta name="author" content="OWASP OWTF Team">
+<!-- Styles -->
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+<link id="skin_css" href="css/stylesheet.css" rel="stylesheet"> <!-- All tweaks present in this file -->
+<!-- End Styles -->
+<!-- JS -->
+<script type="text/javascript" src="css/jquery.js"></script>
+<script type="text/javascript" src="css/bootstrap.min.js"></script>
+<!-- End JS -->
+<!-- Set of functions that can be used in every page to display status messages -->
+<script>
+// Function to activate auto-close of any alert
+function autoCloseAlert(){
+setTimeout(function(){$(".alert").alert('close');}, 5000);
+}
+// Function to display a fail message in status box
+function alertFail(info){
+$('#statusBox').html('<div class="alert alert-danger">\
+<a href="#" class="close" data-dismiss="alert">&times;</a>\
+<strong>Oops!</strong> '+info+'\
+</div>');
+}
+// Function to display a success message in status box
+function alertSuccess(info){
+$('#statusBox').html('<div class="alert alert-success">\
+<a href="#" class="close" data-dismiss="alert">&times;</a>\
+<strong>Yup!</strong> '+info+'\
+</div>');
+autoCloseAlert();
+}
+// Function to display a warning message in status box
+function alertWarning(info){
+$('#statusBox').html('<div class="alert alert-warning">\
+<a href="#" class="close" data-dismiss="alert">&times;</a>\
+<strong>Hey!</strong> '+info+'\
+</div>');
+autoCloseAlert();
+}
+// Function to display a info message in status box
+function alertInfo(info){
+$('#statusBox').html('<div class="alert alert-info">\
+<a href="#" class="close" data-dismiss="alert">&times;</a>\
+<strong>BTW!</strong> '+info+'\
+</div>');
+autoCloseAlert();
+}
+</script>
+<!-- End status box message -->
+<!-- Template specific includes, used by child templates to include something specific -->
+
+<!-- End Includes -->
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<div class="navbar-header">
+<a class="navbar-brand" href="#"><i class="fa fa-gear"></i> OWASP OWTF</a>
+</div>
+<div>
+<ul class="nav navbar-nav pull-right">
+<li><a href="/ui/"><i class="fa fa-home"></i> Home</a></li>
+<li><a href="/ui/targets/"><i class="fa fa-crosshairs"></i> Targets</a></li>
+<li><a href="/ui/workers/"><i class="fa fa-th-large"></i> Workers</a></li>
+<li><a href="/ui/configuration/"><i class="fa fa-gears"></i> Settings</a></li>
+<li><a href="/ui/plugnhack/"><i class="fa fa-sign-in"></i> PlugnHack</a></li>
+<li><a href="/ui/help/"><i class="fa fa-link"></i> Help</a></li>
+</ul> <!-- nav navbar-nav -->
+</div>
+</nav>
+<!-- End Navigation Bar -->
+<!-- Start container -->
+<div class="container">
+<!-- Status box, used to display status messages -->
+<div class="row" id="statusBox">
+</div>
+<!-- End Status box -->
+<!-- Child template content -->
+<div class="row-fluid">
+
+<div class="row">
+<div class="panel panel-info span3">
+<div class="panel-heading">
+<div class="panel-title"> Exploitation</div>
+</div>
+<div class="panel-body">
+<ul>
+<li><a href="http://hackvertor.co.uk/public" target="_blank"> Hackvertor </a></li>
+<!-- <li><a href="http://hackarmoury.com/" target="_blank"> Hackarmoury </a></li> -->
+<li><a href="http://www.exploit-db.com/" target="_blank"> ExploitDB </a></li>
+<li><a href="http://www.exploitsearch.net/" target="_blank"> ExploitSearch </a></li>
+<li><a href="http://www.hakipedia.com/index.php/Hakipedia" target="_blank"> Hackipedia </a></li>
+</ul>
+</div>
+</div>
+<div class="panel panel-info span3">
+<div class="panel-heading">
+<div class="panel-title"><i class="fa fa-road"></i> Methodology</div>
+</div>
+<div class="panel-body">
+<ul>
+<li><a href="https://www.owasp.org/index.php/OWASP_Testing_Guide_v3_Table_of_Contents" target="_blank"> OWASP </a></li>
+<li><a href="http://www.pentest-standard.org/index.php/Main_Page" target="_blank"> Pentest Standard </a></li>
+<li><a href="http://www.isecom.org/osstmm/"> OSSTMM </a></li>
+</ul>
+</div>
+</div>
+<div class="panel panel-info span3">
+<div class="panel-heading">
+<div class="panel-title"> Calculators</div>
+</div>
+<div class="panel-body">
+<ul>
+<li><a href="http://nvd.nist.gov/cvss.cfm?adv&calculator&version=2" target="_blank"> CVSS Advanced </a></li>
+<li><a href="http://nvd.nist.gov/cvss.cfm?calculator&version=2" target="_blank"> CVSS Normal </a></li>
+</ul>
+</div>
+</div>
+<div class="panel panel-info span3">
+<div class="panel-heading">
+<div class="panel-title">Test/Learn</div>
+</div>
+<div class="panel-body">
+<ul>
+<li><a href="http://www.owasp.org/index.php?title=OWASP_Vulnerable_Web_Applications_Directory_Project" target="_blank"> OWASP VWAD </a></li>
+<li><a href="http://securitythoughts.wordpress.com/2010/03/22/vulnerable-web-applications-for-learning/" target="_blank"> Securitythoughts </a></li>
+<li><a href="http://danielmiessler.com/projects/webappsec_testing_resources/" target="_blank"> Danielmiessler </a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="panel panel-default">
+<div class="panel-heading">
+<div class="panel-title"> OWTF Help Links</div>
+</div>
+<div class="panel-body">
+<div class="col-md-2">
+</div>
+<div class="col-md-3">
+<strong>Useful Links:-</strong>
+<ul class="list-unstyled">
+<li><img src="css/github.png"><a href="https://github.com/owtf/owtf/wiki" target="__blank"> Github wiki</a></li>
+<li><img src="css/youtube.jpg"><a href="http://www.youtube.com/user/owtfproject" target="__blank"> Youtube Channel</a></li>
+<li><img src="css/notes.jpg"><a href="http://blog.7-a.org/search/label/OWTF%20Release" target="__blank"> Release notes</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<strong>Contributor's Links:-</strong>
+<ul class="list-unstyled">
+<li><img src="css/github.png"><a href="https://github.com/owtf/owtf" target="__blank"> Github Repo</a></li>
+<li><img src="css/report.png"><a href="https://github.com/owtf/owtf/issues" target="__blank"> Report an Issue</a></li>
+<li><img src="css/readme.jpg"><a href="https://github.com/owtf/owtf/wiki/Contributor%27s-README" target="__blank"> Readme</a></li>
+<li><img src="css/contributors.jpg"><a href="https://github.com/owtf/owtf/blob/master/AUTHORS" target="__blank"> Contributors</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<strong>Stay in touch:-</strong>
+<ul class="list-unstyled">
+<li><img src="css/irc.jpg"><a href="http://irc.netsplit.de/channels/details.php?room=%23owtf&net=freenode" target="__blank"> IRC Channel</a></li>
+<li><img src="css/mail.jpg"><a href="https://lists.owasp.org/mailman/listinfo/owasp_owtf" target="__blank"> Mailing List</a></li>
+<li><img src="css/twitter.png"><a href="https://twitter.com/owtfp" target="__blank"> Twitter</a></li>
+<li><img src="css/author.jpg"><a href="http://blog.7-a.org"> Author's Blog</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<!-- End Child template -->
+</div>
+<!-- End container -->
+</body>
+</html>
