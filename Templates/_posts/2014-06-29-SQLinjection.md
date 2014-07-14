@@ -17,8 +17,9 @@ Also see:-[mitre definitions](http://cwe.mitre.org/data/definitions/89.html)
 
 Mitigation:
 ----------------
-Prevent user supplied input which contains malicious SQL from affecting the logic of the executed query.
-Use persistence layers such as Hibernate or Enterprise Java Beans, which can provide significant protection against SQL injection if used properly.
+Strong input validation - All user-controllable input must be validated and filtered for illegal characters as well as SQL content. Keywords such as UNION, SELECT or INSERT must be filtered in addition to characters such as a single-quote(') or SQL-comments (--) based on the context in which they appear.
+
+Use of parameterized queries or stored procedures - Parameterization causes the input to be restricted to certain domains, such as strings or integers, and any input outside such domains is considered invalid and the query fails.
 
 For more details:-[Testing for SQL injection attacks](https://www.owasp.org/index.php/Testing_for_SQL_Injection_(OWASP-DV-005))
 
