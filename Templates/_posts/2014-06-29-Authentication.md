@@ -10,15 +10,20 @@ Authentication is the act of establishing something (or someone) as authentic, t
 Description
 -----------------
 Authentication is commonly performed by submitting a username or ID and one or more items of private information that only the user should know. 
-To know more about authentication guidelines, see:- [ OWASP Guide](https://www.owasp.org/index.php/Guide_to_Authentication).
+To know more about authentication guidelines, see:- [OWASP Guide](https://www.owasp.org/index.php/Guide_to_Authentication).
 
 Sessions are maintained on the server by a session identifier which can be passed back and forward between the client and server when transmitting and receiving requests. 
 
 Mitigation
 ---------------
-Use an authentication framework or library such as the OWASP ESAPI Authentication feature.
+The primary recommendation for an organization is to make available to developers:
 
-For authentication some guidelines are to be followed like giving proper usernames and passwords. See:- [ Authentication General Guidelines](https://www.owasp.org/index.php/Authentication_Cheat_Sheet#Authentication_General_Guidelines)
+1) A single set of strong authentication and session management controls. Such controls should strive to:
+meet all the authentication and session management requirements defined in OWASP’s [Application Security Verification](http://www.owasp.org/index.php/ASVS#tab=Downloads) Standard (ASVS) areas V2 (Authentication) and V3 (Session Management).
+
+2) Have a simple interface for developers. Consider the [ESAPI Authenticator and User APIs](http://owasp-esapi-java.googlecode.com/svn/trunk_doc/latest/org/owasp/esapi/Authenticator.html) as good examples to emulate, use, or build upon.
+
+For authentication, some guidelines are to be followed like giving proper usernames and passwords. See:- [ Authentication General Guidelines](https://www.owasp.org/index.php/Authentication_Cheat_Sheet#Authentication_General_Guidelines)
 
 Session management is directly related to authentication. For more guidelines on session management, see:-[ Session Management cheatsheet](https://www.owasp.org/index.php/Session_Management_Cheat_Sheet) 
 
