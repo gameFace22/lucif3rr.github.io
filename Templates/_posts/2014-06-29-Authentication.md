@@ -12,13 +12,13 @@ Description
 Authentication is commonly performed by submitting a username or ID and one or more items of private information that only the user should know. 
 Sessions are maintained on the server by a session identifier which can be passed back and forward between the client and server when transmitting and receiving requests. 
 
-To know more about authentication guidelines, see:- [OWASP Guide](https://www.owasp.org/index.php/Guide_to_Authentication).
+To know more about authentication guidelines, see [OWASP Guide](https://www.owasp.org/index.php/Guide_to_Authentication).
 
 Mitigation
 ---------------
 *Make sure userid are case insensitive and ensure a very strong password which is a combination of numbers,alpahbets,symbols and fix the length near to 10 characters.
 *Ensure Secure Password Recovery Mechanism
-https://www.owasp.org/index.php/Forgot_Password_Cheat_Sheet
+[PASSWORD_FORGOT_SHEET] https://www.owasp.org/index.php/Forgot_Password_Cheat_Sheet
 *Use Multi Factor authentication and transmit only over TLS.
 *Use proper Authentication Response
 BAD PRACTICE:     "Login for User foo: invalid password"
@@ -30,7 +30,7 @@ GOOD PRACTICE:    "Login failed; Invalid userID or password"
 *Usgae of secure Password Managers
 
 To know more, see
-https://www.owasp.org/index.php/Session_Management_Cheat_Sheet
+[OWASP SESSION MANAGEMENT] https://www.owasp.org/index.php/Session_Management_Cheat_Sheet
 
 CVSS Base Score:
 ----------------------------
