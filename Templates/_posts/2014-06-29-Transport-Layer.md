@@ -17,12 +17,16 @@ For more details:- [Transport Layer Protection Cheat Sheet](https://www.owasp.or
 Mitigation:
 ---------------
 *Implement HTTP Strict Transport Security in all browsers, which makes it possible to enforce HTTPS connections.Implement Certificate and Public Keys pinning in browsers whereever applicable.
+
 *Use TLS for All Login and Aunthenticated pages and do not provide non-TLS pages for Secure Content.
+
 *Do not perform redirects from Non-TLS to TLS Login Page.
+
 *Use SSL connections whereever possible(IRC,browsers etc.)
+
 *Strictly support strong protocols and Cryptographic Ciphers.
 
-For more details:- [Insufficient Transport Layer Protection](https://www.owasp.org/index.php/OWASP_Periodic_Table_of_Vulnerabilities_-_Insufficient_Transport_Layer_Protection) 
+For more details: [OWASP Insufficient Transport Layer Protection](https://www.owasp.org/index.php/OWASP_Periodic_Table_of_Vulnerabilities_-_Insufficient_Transport_Layer_Protection) 
 
 [OWASP Top 10 2010 A9 Insufficient Transport Layer Protection](https://www.owasp.org/index.php/Top_10_2010-A9-Insufficient_Transport_Layer_Protection) 
 
