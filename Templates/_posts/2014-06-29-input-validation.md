@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Input validation
+Layout: POST
+Title: Input Validation
 ---
 Synopsis:
 ---------------
@@ -8,16 +8,21 @@ Input validation refers to the process of validating all the input to an applica
 
 Description:
 ------------------
+
 Many applications do not plan input validation, and leave it up to the individual developers. This is a recipe for disaster, as different developers will certainly all choose a different approach, and many will simply leave it out in the pursuit of more interesting development.
 
 Mitigation:
 ---------------
-Use an input validation framework such as Struts or the OWASP ESAPI Validation API.
+*Use an input validation framework such as Struts or the OWASP ESAPI Validation API.
 Use an "accept known good" input validation strategy.
-For more details:- [mitre definition](http://cwe.mitre.org/data/definitions/20.html)
-
-For guidance for providing Input Validation security functionality in applications:- [Input Validation Cheat Sheet
+*White List Regular Expression Examples and Java Regex example usage have been given in the below link.
+[Input Validation Cheat Sheet
 ](https://www.owasp.org/index.php/Input_Validation_Cheat_Sheet)
+*Include Integrity checks,Validation and Business rules.
+*Please refer the site for getting knowledge of good and bad practices.
+https://www.owasp.org/index.php/Data_Validation
+
+For more details:- [mitre definition](http://cwe.mitre.org/data/definitions/20.html) 
 
 CVSS Base Score:
 ----------------------------
