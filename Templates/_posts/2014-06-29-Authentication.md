@@ -23,7 +23,7 @@ A single set of strong authentication and session management controls. Such cont
 2) Have a simple interface for developers. Consider the [ESAPI Authenticator and User APIs](http://owasp-esapi-java.googlecode.com/svn/trunk_doc/latest/org/owasp/esapi/Authenticator.html) as good examples to emulate, use, or build upon.
 
 To know more, see
-[OWASP SESSION MANAGEMENT](https://www.owasp.org/index.php/Session_Management_Cheat_Sheet)
+[OWASP Session Management](https://www.owasp.org/index.php/Session_Management_Cheat_Sheet)
 
 CVSS Base Score:
 ----------------------------
