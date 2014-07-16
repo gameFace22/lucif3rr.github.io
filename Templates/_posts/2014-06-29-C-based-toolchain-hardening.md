@@ -15,9 +15,9 @@ Mitigation
 -----------
 Start with manual approach. Scanners and tools cannot verify cryptographic weakness. Best way is the review of code, review of used cryptographic algorithm and key management.  
 
-*Ensure strong standard algorithms and strong keys are used,managed and backed up separately.
-*Ensure passwords are hashed with strong standard algorithm and appropriate salt is used.
-*Ensure all keys and password are protected from unauthorized access.
+-Ensure strong standard algorithms and strong keys are used,managed and backed up separately.
+-Ensure passwords are hashed with strong standard algorithm and appropriate salt is used.
+-Ensure all keys and password are protected from unauthorized access.
 
 Effectively configuring the toolchain also means your project will enjoy a number of benefits during development, including enhanced warnings and static analysis, and self-debugging code. To create executables with firmer defensive postures and increased integration with the available platform security follow the steps provided here:- [ C-Based Toolchain Hardening Cheat Sheet](https://www.owasp.org/index.php/C-Based_Toolchain_Hardening_Cheat_Sheet)
 
