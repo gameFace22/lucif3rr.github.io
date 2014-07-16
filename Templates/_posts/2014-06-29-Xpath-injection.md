@@ -16,10 +16,13 @@ Read more:For more details:-[OWASP Guide on XPATH Injection](https://www.owasp.o
 Mitigation:
 ----------------
 *Use parameterized XPath queries (e.g. using XQuery). This will help ensure separation between data plane and control plane. Use an "accept known good" input validation strategy, i.e., use a whitelist of acceptable inputs that strictly conform to specifications.
+
 *Just like the techniques to avoid SQL injection, you need to use a parameterized XPath interface if one is available, or escape the user input to make it safe to include in a dynamically constructed query.Refer SQLi.
 
-Read more:For more details:-[mitre definitions](http://cwe.mitre.org/data/definitions/643.html)
-[TESTING FOR XPATH INJECTION] https://www.owasp.org/index.php/Testing_for_XPath_Injection_%28OWASP-DV-010%29
+Read more:For more details:-[MITRE definitions](http://cwe.mitre.org/data/definitions/643.html)
+
+[OWASP TESTING FOR XPATH INJECTION] https://www.owasp.org/index.php/Testing_for_XPath_Injection_%28OWASP-DV-010%29
+
 [INJECTION CHEAT SHEET] -http://www.ntobjectives.com/research/application-security-cheat-sheets/injection-cheat-sheet-non-sql/  
 
 
