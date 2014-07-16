@@ -15,23 +15,22 @@ To know more about CSRF visit: [ OWASP Guide on Cross-Site Request Forgery](http
 
 Mitigation
 ---------------
-*Only accepting POST Requests and using a secret cookie.
+Preventing CSRF usually requires the inclusion of an unpredictable token in each HTTP request. Such tokens should, at a minimum, be unique per user session:
 
-*URL Rewriting - This might be seen as a useful CSRF prevention technique as the attacker can not guess the victim's session ID. However, the user’s credential is exposed over the URL.
+- The preferred option is to include the unique token in a hidden field. This causes the value to be sent in the body of the HTTP request, avoiding its inclusion in the URL, which is more prone to exposure.
 
-*Using Synchronizer Token Pattern which requires the genrating of random challenge tokens that are associated with the current session.
-http://www.corej2eepatterns.com/Design/PresoDesign.htm
+- The unique token can also be included in the URL itself, or a URL parameter. However, such placement runs a greater risk that the URL will be exposed to an attacker, thus compromising the secret token.
 
-*Double Submit Cookies which is definedas sending a random value in both a cookie and as a request parameter.
+- OWASP’s [CSRF Guard](https://www.owasp.org/index.php/CSRFGuard) can automatically include such tokens in Java EE, .NET, or PHP apps. OWASP’s [ESAPI](https://www.owasp.org/index.php/ESAPI) includes methods developers can use to prevent CSRF vulnerabilities.
 
-*Encryped Token Pattern leverages an encryption rather than comparison,method of Token-validation.
+- Requiring the user to reauthenticate, or prove they are a user (e.g., via a CAPTCHA) can also protect against CSRF.
 
-*Without CSRF a Synchronizer Token,check the origin HTTP header and ensure no XSS Vulneribilities.
-https://wiki.mozilla.org/Security/Origin 
 
 Also see:[OWASP CSRF prevention without Synchronizer token](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet#CSRF_Prevention_without_a_Synchronizer_Token)
+
 [OWASP Top 10:](https://www.owasp.org/index.php/Top_10_2013-A8-Cross-Site_Request_Forgery_(CSRF))
-[TESTING FOR CSRF] https://www.owasp.org/index.php/Testing_for_CSRF_%28OWASP-SM-005%29
+
+[TESTING FOR CSRF](https://www.owasp.org/index.php/Testing_for_CSRF_%28OWASP-SM-005%29)
 
 CVSS Base Score:
 -----------------------------
