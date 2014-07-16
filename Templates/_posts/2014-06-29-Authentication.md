@@ -16,18 +16,11 @@ To know more about authentication guidelines, see [OWASP Guide](https://www.owas
 
 Mitigation
 ---------------
-*Make sure userid are case insensitive and ensure a very strong password which is a combination of numbers,alpahbets,symbols and fix the length near to 10 characters.
-*Ensure Secure Password Recovery Mechanism
-[PASSWORD_FORGOT_SHEET] https://www.owasp.org/index.php/Forgot_Password_Cheat_Sheet
-*Use Multi Factor authentication and transmit only over TLS.
-*Use proper Authentication Response
-BAD PRACTICE:     "Login for User foo: invalid password"
-                  "Login failed, invalid user ID"
-                  "Login failed; account disabled"
-                  "Login failed; this user is not active"
-GOOD PRACTICE:    "Login failed; Invalid userID or password"  
-*Usage of authentication protocols that require no password. Like OAuth,SAML and OpenID.
-*Usgae of secure Password Managers
+A single set of strong authentication and session management controls. Such controls should strive to:
+
+1) Meet all the authentication and session management requirements defined in OWASP’s [Application Security Verification](https://www.owasp.org/index.php/ASVS)  Standard (ASVS) areas V2 (Authentication) and V3 (Session Management).
+
+2) Have a simple interface for developers. Consider the [ESAPI Authenticator and User APIs](http://owasp-esapi-java.googlecode.com/svn/trunk_doc/latest/org/owasp/esapi/Authenticator.html) as good examples to emulate, use, or build upon.
 
 To know more, see
 [OWASP SESSION MANAGEMENT] https://www.owasp.org/index.php/Session_Management_Cheat_Sheet
