@@ -9,7 +9,9 @@ Clickjacking (UI redress attack) happens when an attacker uses multiple transpar
 
 Description:
 ----------------------
-Clickjacking is a malicious technique that consists of deceiving a user into interacting with multiple transparent or opaque layers to trick a user into clicking on a button or link which they did not intend to. It can be used in combination with other attacks, which could potentially send unauthorized commands or reveal confidential data while the victim is spoofed and interacting on seemingly harmless web page.
+Clickjacking is a malicious technique that consists of deceiving a user into interacting with multiple transparent or opaque layers to trick a user into clicking on a button or link which they did not intend to. 
+
+It can be used in combination with other attacks, which could potentially send unauthorized commands or reveal confidential data while the victim is spoofed and interacting on seemingly harmless web page.
 For more details view:- [OWASP Guide on Clickjacking](https://www.owasp.org/index.php/Clickjacking)
 
 Mitigation:
