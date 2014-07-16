@@ -14,12 +14,11 @@ For more details view:- [OWASP Guide on Clickjacking](https://www.owasp.org/inde
 
 Mitigation:
 -----------------
-*Include "frame-breaking" functionality which prevents other web pages from framing the site you wish to defend. 
+- Include "frame-breaking" functionality which prevents other web pages from framing the site you wish to defend. 
 
-*Using X-Frame-Options Header types like DENY,SAMEORIGIN,ALLOW-FROM uri.
+- Using X-Frame-Options Header types like DENY,SAMEORIGIN,ALLOW-FROM uri.
 
-*window.confirm() Protection 
-
+- window.confirm() Protection 
 
 To know more about implementing frame-breaking visit :- [OWASP Clickjacking Defence Cheat Sheet](https://www.owasp.org/index.php/Clickjacking_Defense_Cheat_Sheet)
 
