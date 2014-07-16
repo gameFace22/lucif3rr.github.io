@@ -17,17 +17,15 @@ Also see:-[MITRE definitions](http://cwe.mitre.org/data/definitions/89.html)
 
 Mitigation:
 ----------------
-*Sanitize the input(such as MySQL' mysql_real_escape_string() function) to ensure dangerous characters such as "'" are not passed.
+- Sanitize the input(such as MySQL' mysql_real_escape_string() function) to ensure dangerous characters such as "'" are not passed.
 
-*Use persistence layers such as Hibernate or Enterprise Java Beans, which ensure protection against SQL injection if used properly.
+- Use persistence layers such as Hibernate or Enterprise Java Beans, which ensure protection against SQL injection if used properly.
 
-*Check server logs in a regular basis to verify that no one pokes you with malicious codes.
+- Check server logs in a regular basis to verify that no one pokes you with malicious codes.
 
-*Use a WAF(Web Application Firewall) to filter out malicious data.
+- Use a WAF(Web Application Firewall) to filter out malicious data.
 
-*Encrypt or hash passwords and other confidential data including connection strings.
-
-*Use dynamic SQL once when it is necessary.
+- Encrypt or hash passwords and other confidential data including connection strings.
 
 For more details:[OWASP Testing for SQL injection attacks](https://www.owasp.org/index.php/Testing_for_SQL_Injection_(OWASP-DV-005))
 
