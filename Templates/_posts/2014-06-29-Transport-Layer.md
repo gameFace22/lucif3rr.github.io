@@ -16,15 +16,17 @@ For more details:- [Transport Layer Protection Cheat Sheet](https://www.owasp.or
 
 Mitigation:
 ---------------
-- Implement HTTP Strict Transport Security in all browsers, which makes it possible to enforce HTTPS connections.Implement Certificate and Public Keys pinning in browsers whereever applicable.
+Providing proper transport layer protection can affect the site design. It’s easiest to require SSL for the entire site but due to performance reasons, some sites use SSL only on private pages. At a minimum, do all of the following:
 
-- Use TLS for All Login and Aunthenticated pages and do not provide non-TLS pages for Secure Content.
+- Require SSL for all sensitive pages. Non-SSL requests to these pages should be redirected to the SSL page.
 
-- Do not perform redirects from Non-TLS to TLS Login Page.
+- Set the ‘secure’ flag on all sensitive cookies.
 
-- Use SSL connections whereever possible(IRC,browsers etc.)
+- Configure your SSL provider to only support strong (e.g., FIPS 140-2 compliant) algorithms.
 
-- Strictly support strong protocols and Cryptographic Ciphers.
+- Ensure your certificate is valid, not expired, not revoked, and matches all domains used by the site.
+
+- Backend and other connections should also use SSL or other encryption technologies.
 
 For more details: 
 
