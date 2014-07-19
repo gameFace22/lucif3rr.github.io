@@ -15,13 +15,13 @@ Insecure Cryptographic Storage is a collection of vulnerabilities which has to d
 
 Mitigation:
 ----------------
-*Start with manual approach. Scanners and tools cannot verify cryptographic weakness. Best way is the review of code, review of used cryptographic algorithm and key management.  
+- Start with manual approach. Scanners and tools cannot verify cryptographic weakness. Best way is the review of code, review of used cryptographic algorithm and key management.  
 
-*Ensure strong standard algorithms and strong keys are used,managed and backed up separately.
+- Ensure strong standard algorithms and strong keys are used,managed and backed up separately.
 
-*Ensure passwords are hashed with strong standard algorithm and appropriate salt is used.
+- Ensure passwords are hashed with strong standard algorithm and appropriate salt is used.
 
-*Ensure all keys and password are protected from unauthorized access.
+- Ensure all keys and password are protected from unauthorized access.
 
 For more details :
 
@@ -29,7 +29,8 @@ For more details :
 
 [Owasp Top 10](https://www.owasp.org/index.php/Top_10_2010-A7-Insecure_Cryptographic_Storage)
 
-[Interface Encryptor] https://owasp-esapi-java.googlecode.com/svn/trunk_doc/latest/org/owasp/esapi/Encryptor.html
+[Interface Encryptor](https://owasp-esapi-java.googlecode.com/svn/trunk_doc/latest/org/owasp/esapi/Encryptor.html)
+
 
 CVSS Base Score:
 -------------------------
