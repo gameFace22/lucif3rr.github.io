@@ -15,18 +15,17 @@ For more details:- [OWASP Web Services](https://www.owasp.org/index.php/Web_Serv
 
 Mitigation:
 -------------
-*Transport Confidentiality protects against from eavesdropping and Man-in-the-middle attacks against the server.So better to use TLS,
-https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet.
+- Transport Confidentiality protects against from eavesdropping and Man-in-the-middle attacks against the server.So better to use TLS
 
-*Client Cetificate Authentication using SSL is a strong form of Authentication required.Basic Authentication over SSL is not mandatory.
+- Client Cetificate Authentication using SSL is a strong form of Authentication required. Basic Authentication over SSL is not mandatory.
 
-*SOAP encoding styles are meant to move data between software objects into XML format and back again.Enforce the same between the client and server.
+- SOAP encoding styles are meant to move data between software objects into XML format and back again. Enforce the same between the client and server.
 
-*Message Confedentiality - Messages containing sensitive data must be encrypted using a strong cipher.
+- Message Confedentiality - Messages containing sensitive data must be encrypted using a strong cipher.
 
-*Very important is Validation against malformed XML entities,XML Bomb attacks,external entity attacks.
+- Very important is Validation against malformed XML entities,XML Bomb attacks,external entity attacks.
 
-*Ensure Virus Scanning technology is installed,updated and preferably  inline so that the files and attachments could be checked before being saved on disk.
+- Ensure Virus Scanning technology is installed,updated and preferably  inline so that the files and attachments could be checked before being saved on disk.
 
 For more details : [OWASP Web Service Security] https://www.owasp.org/index.php/Web_Service_Security_Cheat_Sheet
 
