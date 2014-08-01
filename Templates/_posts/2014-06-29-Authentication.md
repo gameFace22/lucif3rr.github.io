@@ -1,12 +1,8 @@
-<!---
-
--->
 
 
 ---
 Layout: POST
 Title: Authentication & Sessions
-category: Authentication
 ---
 
 Synopsis
