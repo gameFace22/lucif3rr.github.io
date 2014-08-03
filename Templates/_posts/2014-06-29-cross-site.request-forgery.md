@@ -1,3 +1,7 @@
+<!---
+CSRF
+-->
+
 ---
 Layout: post
 Title: Cross Site Request Forgery(CSRF)

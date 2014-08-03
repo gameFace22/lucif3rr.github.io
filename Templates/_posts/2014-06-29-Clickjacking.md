@@ -1,6 +1,5 @@
 <!---
-Clickjacking
-OWTF-WGP-001
+ClickJacking
 -->
 
 ---

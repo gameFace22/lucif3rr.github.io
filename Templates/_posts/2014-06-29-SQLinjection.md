@@ -1,6 +1,5 @@
 <!---
 SQL
-OWASP-DV-005,OWASP-DS-001
 -->
 
 ---
