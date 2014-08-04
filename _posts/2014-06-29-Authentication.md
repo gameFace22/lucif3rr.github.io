@@ -1,7 +1,3 @@
-<!---
-Authentication
--->
-
 ---
 layout: post
 title: Authentication and session 
