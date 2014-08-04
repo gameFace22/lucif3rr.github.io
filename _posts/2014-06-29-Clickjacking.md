@@ -1,6 +1,6 @@
 ---
-Layout: POST
-Title: Clickjacking
+layout: POST
+title: Clickjacking
 ---
 <!---
 ClickJacking

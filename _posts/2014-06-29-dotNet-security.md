@@ -1,6 +1,6 @@
 ---
-Layout: POST
-Title: .NET Security
+layout: POST
+title: .NET Security
 ---
 <!---
 .NET

@@ -1,6 +1,6 @@
 ---
-Layout: POST
-Title: Input Validation
+layout: POST
+title: Input Validation
 ---
 <!---
 Input validation

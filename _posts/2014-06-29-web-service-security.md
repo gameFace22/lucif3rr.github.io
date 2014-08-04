@@ -1,6 +1,6 @@
 ---
-Layout: POST
-Title: Web Service Security
+layout: POST
+title: Web Service Security
 ---
 <!---
 Web Service

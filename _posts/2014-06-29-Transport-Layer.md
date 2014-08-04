@@ -1,6 +1,6 @@
 ---
-Layout: POST
-Title: Transport Layer Protection
+layout: POST
+title: Transport Layer Protection
 ---
 <!---
 TLS

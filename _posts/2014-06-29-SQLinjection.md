@@ -1,6 +1,6 @@
 ---
-Layout: POST
-Title: SQL Injection
+layout: POST
+title: SQL Injection
 ---
 <!---
 SQL

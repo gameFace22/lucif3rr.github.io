@@ -1,6 +1,6 @@
 ---
-Layout: POST
-Title: C-Based Toolchain Hardening
+layout: POST
+title: C-Based Toolchain Hardening
 ---
 <!---
 C-Toolchain

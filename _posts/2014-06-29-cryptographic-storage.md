@@ -1,6 +1,6 @@
 ---
-Layout: POST
-Title: Insecure Cryptographic Storage
+layout: POST
+title: Insecure Cryptographic Storage
 ---
 <!---
 Cryptography
