@@ -3,8 +3,8 @@ Authentication
 -->
 
 ---
-Layout: post
-Title: Authentication & Sessions
+layout: post
+title: Authentication & Sessions
 ---
 
 Synopsis
