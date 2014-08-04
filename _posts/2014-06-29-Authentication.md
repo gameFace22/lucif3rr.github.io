@@ -1,12 +1,12 @@
-<!---
-Authentication
--->
 
 ---
 Layout: POST
 Title: Authentication & Sessions
 ---
 
+<!---
+Authentication
+-->
 Synopsis
 ---------------
 Authentication is the act of establishing something (or someone) as authentic, to check that claims made by or about the thing are true. Session Management is a process by which a server maintains the state of an entity interacting with it.
