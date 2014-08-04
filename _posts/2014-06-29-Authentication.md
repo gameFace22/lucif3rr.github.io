@@ -1,9 +1,7 @@
-
 ---
-Layout: POST
-Title: Authentication & Sessions
+layout: post
+title: Authentication and session 
 ---
-
 <!---
 Authentication
 -->
