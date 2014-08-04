@@ -1,5 +1,5 @@
 ---
-layout: POST
+layout: post
 title: Transport Layer Protection
 ---
 <!---

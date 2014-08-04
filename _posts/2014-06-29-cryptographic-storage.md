@@ -1,5 +1,5 @@
 ---
-layout: POST
+layout: post
 title: Insecure Cryptographic Storage
 ---
 <!---
