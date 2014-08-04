@@ -4,7 +4,7 @@ Authentication
 
 ---
 layout: post
-title: Authentication & Sessions
+title: Authentication and session 
 ---
 
 Synopsis
