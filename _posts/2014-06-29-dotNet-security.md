@@ -1,12 +1,10 @@
-<!---
-.NET
--->
-
 ---
 Layout: POST
 Title: .NET Security
 ---
-
+<!---
+.NET
+-->
 Synopsis:
 ------------------
 The .NET Framework is Microsoft's principal platform for enterprise development.

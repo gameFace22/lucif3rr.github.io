@@ -1,11 +1,11 @@
-<!---
-Input validation
--->
-
 ---
 Layout: POST
 Title: Input Validation
 ---
+<!---
+Input validation
+-->
+
 Synopsis:
 ---------------
 Input validation refers to the process of validating all the input to an application before using it. 

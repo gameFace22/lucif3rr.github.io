@@ -1,12 +1,10 @@
-<!---
-C-Toolchain
--->
-
 ---
 Layout: POST
 Title: C-Based Toolchain Hardening
 ---
-
+<!---
+C-Toolchain
+-->
 Synopsis
 ---------
 C-Based Toolchain Hardening is a treatment of project settings that will help you deliver reliable and secure code when using C, C++ and Objective C languages in a number of development environments.

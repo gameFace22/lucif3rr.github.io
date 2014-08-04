@@ -1,13 +1,10 @@
-<!---
-Cryptography
--->
-
-
 ---
 Layout: POST
 Title: Insecure Cryptographic Storage
 ---
-
+<!---
+Cryptography
+-->
 Synopsis:
 ----------------
 Insecure Cryptographic Storage is a vulnerability that occurs when sensitive data is not stored securely.

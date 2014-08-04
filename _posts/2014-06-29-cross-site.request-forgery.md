@@ -1,12 +1,10 @@
-<!---
-CSRF
--->
-
 ---
 Layout: post
 Title: Cross Site Request Forgery(CSRF)
 ---
-
+<!---
+CSRF
+-->
 Synopsis
 --------------
 CSRF is an attack which forces an end user to execute unwanted actions on a web application in which he/she is currently authenticated.

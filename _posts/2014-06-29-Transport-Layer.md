@@ -1,12 +1,10 @@
-<!---
-TLS
--->
-
 ---
 Layout: POST
 Title: Transport Layer Protection
 ---
-
+<!---
+TLS
+-->
 Synopsis:
 ------------------
 Insufficient Transport Layer Protection is a security weakness caused by applications not taking any measures to protect network traffic.

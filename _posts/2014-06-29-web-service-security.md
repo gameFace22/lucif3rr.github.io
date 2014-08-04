@@ -1,11 +1,10 @@
-<!---
-Web Service
--->
-
 ---
 Layout: POST
 Title: Web Service Security
 ---
+<!---
+Web Service
+-->
 
 Synopsis:
 ---------------

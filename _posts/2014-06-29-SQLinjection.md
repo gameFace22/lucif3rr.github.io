@@ -1,12 +1,10 @@
-<!---
-SQL
--->
-
 ---
 Layout: POST
 Title: SQL Injection
 ---
-
+<!---
+SQL
+-->
 Synopsis:
 ----------------
 SQL injection attacks are a type of injection attack, in which SQL commands are injected into data-plane input in order to effect the execution of predefined SQL commands.
