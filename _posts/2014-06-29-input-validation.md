@@ -19,14 +19,12 @@ Mitigation:
 ---------------
 - Use an input validation framework such as Struts or the OWASP ESAPI Validation API. Use an "accept known good" input validation strategy.
 
-- White List Regular Expression Examples and Java Regex example usage have been given in the below link. [OWASP Input Validation Cheat Sheet
-](https://www.owasp.org/index.php/Input_Validation_Cheat_Sheet)
+- White List Regular Expression Examples and Java Regex example usage have been given in the below link. 
+ [OWASP Input Validation Cheat Sheet](https://www.owasp.org/index.php/Input_Validation_Cheat_Sheet)
 
 - Include Integrity checks,Validation and Business rules.
 
-- Please refer the site for getting knowledge of good and bad practices.
-
-For more details:- [MITRE definition](http://cwe.mitre.org/data/definitions/20.html) 
+For more details: [MITRE definition](http://cwe.mitre.org/data/definitions/20.html) 
 [Data Validation](https://www.owasp.org/index.php/Data_Validation)
 
 CVSS Base Score:
