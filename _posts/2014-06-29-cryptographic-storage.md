@@ -21,7 +21,7 @@ Mitigation:
 
 - Ensure strong standard algorithms and strong keys are used,managed,usage of salt and backed up separately.
 
-- Ensure all keys and password are protected from unauthorized access.1
+- Ensure all keys and password are protected from unauthorized access.
 
 For more details :
 
