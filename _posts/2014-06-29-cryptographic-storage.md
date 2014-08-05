@@ -19,11 +19,9 @@ Mitigation:
 ----------------
 - Start with manual approach. Scanners and tools cannot verify cryptographic weakness. Best way is the review of code, review of used cryptographic algorithm and key management.  
 
-- Ensure strong standard algorithms and strong keys are used,managed and backed up separately.
+- Ensure strong standard algorithms and strong keys are used,managed,usage of salt and backed up separately.
 
-- Ensure passwords are hashed with strong standard algorithm and appropriate salt is used.
-
-- Ensure all keys and password are protected from unauthorized access.
+- Ensure all keys and password are protected from unauthorized access.1
 
 For more details :
 
