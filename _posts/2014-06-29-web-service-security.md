@@ -17,14 +17,9 @@ Web services let any application communicate with any other application without 
 For more details:- [OWASP Web Services](https://www.owasp.org/index.php/Web_Services)
 
 Mitigation:
--------------
-- Transport Confidentiality protects against from eavesdropping and Man-in-the-middle attacks against the server.So better to use TLS
+------------
 
-- Client Cetificate Authentication using SSL is a strong form of Authentication required. Basic Authentication over SSL is not mandatory.
-
-- SOAP encoding styles are meant to move data between software objects into XML format and back again. Enforce the same between the client and server.
-
-- Message Confedentiality - Messages containing sensitive data must be encrypted using a strong cipher.
+- Message Confedentiality - Messages containing sensitive data must be encrypted using a strong cipher.Use TLS.
 
 - Very important is Validation against malformed XML entities,XML Bomb attacks,external entity attacks.
 

@@ -18,17 +18,13 @@ For more details:- [Transport Layer Protection Cheat Sheet](https://www.owasp.or
 
 Mitigation:
 ---------------
-Providing proper transport layer protection can affect the site design. It’s easiest to require SSL for the entire site but due to performance reasons, some sites use SSL only on private pages. At a minimum, do all of the following:
+Providing proper transport layer protection can affect the site design so at a minimum, do all of the following:
 
-- Require SSL for all sensitive pages. Non-SSL requests to these pages should be redirected to the SSL page.
+- Require SSL for all sensitive pages,backend. Non-SSL requests to these pages should be redirected to the SSL page.Use strong algorithms(e.g., FIPS 140-2 compliant)
 
 - Set the ‘secure’ flag on all sensitive cookies.
 
-- Configure your SSL provider to only support strong (e.g., FIPS 140-2 compliant) algorithms.
-
 - Ensure your certificate is valid, not expired, not revoked, and matches all domains used by the site.
-
-- Backend and other connections should also use SSL or other encryption technologies.
 
 For more details: 
 
