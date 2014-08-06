@@ -14,7 +14,6 @@ Description:
 All the traffic,flowing between two endpoints is not secured, which makes it possible for attackers to eavesdrop and to perform man-in-the-middle attacks.
 
 For more details:- [Transport Layer Protection Cheat Sheet](https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet)
-[MITM] - https://www.owasp.org/index.php/Man-in-the-middle_attack 
 
 Mitigation:
 ---------------
