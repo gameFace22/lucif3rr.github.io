@@ -22,8 +22,6 @@ Mitigation:
 
 - Using X-Frame-Options Header types like DENY,SAMEORIGIN,ALLOW-FROM uri.
 
-- window.confirm() Protection 
-
 To know more about implementing frame-breaking visit :- [OWASP Clickjacking Defence Cheat Sheet](https://www.owasp.org/index.php/Clickjacking_Defense_Cheat_Sheet)
 
 To view details on the testing of clickjacking visit:- [OWASP Testing for Clickjacking](https://www.owasp.org/index.php/Testing_for_Clickjacking_(OWASP-CS-004))
