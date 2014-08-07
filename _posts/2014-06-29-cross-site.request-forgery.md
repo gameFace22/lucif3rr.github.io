@@ -30,10 +30,6 @@ Also see: [OWASP CSRF prevention without Synchronizer token](https://www.owasp.o
 
 [TESTING FOR CSRF](https://www.owasp.org/index.php/Testing_for_CSRF_%28OWASP-SM-005%29)
 
-[OWASP CSRF Guard](https://www.owasp.org/index.php/CSRFGuard)  
-
-[OWASP ESAPI](https://www.owasp.org/index.php/ESAPI)
-
 CVSS Base Score:
 -----------------------------
 [6.8(AV:N/AC:M/AU:N/C:P/I:P/A:P)](http://nvd.nist.gov/cvss.cfm?vector=%28AV:N/AC:M/AU:N/C:P/I:P/A:P%29&version=2.0)
