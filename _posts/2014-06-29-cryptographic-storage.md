@@ -35,3 +35,4 @@ For more details :
 CVSS Base Score:
 -------------------------
 
+[Calculator](http://nvd.nist.gov/cvss.cfm?calculator&version=2)
