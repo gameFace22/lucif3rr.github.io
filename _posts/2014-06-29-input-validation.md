@@ -29,4 +29,4 @@ For more details: [MITRE definition](http://cwe.mitre.org/data/definitions/20.ht
 
 CVSS Base Score:
 ----------------------------
-
+[Calculator](http://nvd.nist.gov/cvss.cfm?calculator&version=2)
