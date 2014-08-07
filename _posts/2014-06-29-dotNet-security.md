@@ -26,4 +26,4 @@ For more details:- [OWASP .NET_Security_Cheat_Sheet](https://www.owasp.org/index
 
 CVSS Base Score:
 -------------------------
-
+[Calculator](http://nvd.nist.gov/cvss.cfm?calculator&version=2)
