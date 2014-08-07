@@ -29,8 +29,6 @@ For more details :
 
 [Owasp Top 10](https://www.owasp.org/index.php/Top_10_2010-A7-Insecure_Cryptographic_Storage)
 
-[Interface Encryptor](https://owasp-esapi-java.googlecode.com/svn/trunk_doc/latest/org/owasp/esapi/Encryptor.html)
-
 
 CVSS Base Score:
 -------------------------
