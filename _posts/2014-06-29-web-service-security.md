@@ -25,8 +25,8 @@ Mitigation:
 
 - Ensure Virus Scanning technology is installed,updated and preferably  inline so that the files and attachments could be checked before being saved on disk.
 
-For more details : [OWASP Web Service Security] https://www.owasp.org/index.php/Web_Service_Security_Cheat_Sheet
+For more details : [OWASP Web Service Security](https://www.owasp.org/index.php/Web_Service_Security_Cheat_Sheet)
 
 CVSS Base Score:
 -------------------------- 
-
+[Calculator](http://nvd.nist.gov/cvss.cfm?calculator&version=2)
