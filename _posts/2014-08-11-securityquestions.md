@@ -12,11 +12,11 @@ There should be some best practice for developers to follow when choosing and us
 Description
 -----------------
 There is no industry standard either for providing guidance to users or developers when using or implementing a Forgot Password feature. The result is that developers generally pick a set of dubious questions and implement them insecurely. 
-Any security question should be memorable,safe,never universal,consistent.
+Any security question should be memorable, safe, nearly universal and consistent.
 
 Mitigation
 ---------------
-* Review Any Canned Questions with Your Legal Department or Privacy Officer and  decide on Identity Data vs Canned Questions vs. User-Created Questions.
+* Review any canned questions with your legal department or privacy officer and decide on Identity Data vs Canned Questions vs. User-Created Questions.
 
 * Periodically Have Your Users Review their questions and update them.
 
