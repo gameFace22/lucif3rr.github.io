@@ -7,11 +7,11 @@ Password storage shet
 -->
 Synopsis
 ---------------
-This article provides guidance on properly storing passwords, secret question responses, and similar credential information.
+Guidance on properly storing passwords, secret question responses, and similar credential information is provided.
 
 Description
 -----------------
-Proper storage helps prevent theft, compromise, and malicious use of credentials. Information systems store passwords and other credentials in a variety of protected forms. Common vulnerabilities allow the theft of protected passwords through attack vectors such as SQL Injection. Protected passwords can also be stolen from artifacts such as logs, dumps, and backups. 
+Proper storage helps prevent theft, compromise, and malicious use of credentials. Information systems store passwords and other credentials in a variety of protected forms. Common vulnerabilities allow the theft of protected passwords through attack vectors such as SQL Injection. Protected passwords can also be stolen from artifacts such as logs, dumps and backups. 
 
 Mitigation
 ---------------
