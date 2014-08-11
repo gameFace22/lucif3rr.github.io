@@ -17,7 +17,7 @@ Mitigation
 ---------------
 * To protect injection attacks, Ruby offers a function called “eval” which will dynamically build new Ruby code based on Strings. It also has a number of ways to call system commands.
 
-* Use security header, to set a header value, simply access the response headers object as a hash inside your controller (often in a before/after_filter). 
+* Use security header, to set a header value, simply access the response headers object as a hash inside the controller (often in a before/after_filter). 
 
 For more information visit,
 
