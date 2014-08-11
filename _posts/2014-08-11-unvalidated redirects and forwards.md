@@ -16,13 +16,15 @@ By modifying untrusted URL input to a malicious site, an attacker may successful
 Mitigation
 ---------------
 * Simply avoid using redirects and forwards.If used, do not allow the url as user input for the destination. 
+
 * If user input can’t be avoided, ensure that the supplied value is valid, appropriate  and is authorized.
+
 * Sanitize input by creating a list of trusted URL's (lists of hosts or a regex) and force all redirects through a confirmation page.
 
 For more information visit,
-[OWASP Unvalidated Redirects and Forwards] https://www.owasp.org/index.php/Unvalidated_Redirects_and_Forwards_Cheat_Sheet
-[MITRE]http://cwe.mitre.org/data/definitions/601.html
-[OWASP Open Redirect] https://www.owasp.org/index.php/Open_redirect
+[OWASP Unvalidated Redirects and Forwards](https://www.owasp.org/index.php/Unvalidated_Redirects_and_Forwards_Cheat_Sheet)
+
+[OWASP Open Redirect](https://www.owasp.org/index.php/Open_redirect)
 
 CVSS Base Score:
 ----------------------------
