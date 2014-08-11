@@ -15,9 +15,9 @@ By modifying untrusted URL input to a malicious site, an attacker may successful
 
 Mitigation
 ---------------
-* Simply avoid using redirects and forwards.If used, do not allow the url as user input for the destination. 
+* Simply avoid using redirects and forwards. If used, do not allow the url as user input for the destination. 
 
-* If user input can’t be avoided, ensure that the supplied value is valid, appropriate  and is authorized.
+* If user input can’t be avoided, ensure that the supplied value is valid, appropriate and is authorized.
 
 * Sanitize input by creating a list of trusted URL's (lists of hosts or a regex) and force all redirects through a confirmation page.
 
