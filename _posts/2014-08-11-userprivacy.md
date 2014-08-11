@@ -25,8 +25,6 @@ Mitigation
 For more information,
 [OWASP User Privacy Cheat Sheet](https://www.owasp.org/index.php/User_Privacy_Protection_Cheat_Sheet)
 
-[Tor project](https://www.torproject.org)
-
 [OWASP Logging Sheet](https://www.owasp.org/index.php/Logging_Cheat_Sheet)
 
 
