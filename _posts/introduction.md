@@ -7,23 +7,23 @@ These exposures may also be used as stepping-stone towards gaining access to the
 
 Following are the links which contain reports for all the vulnerabilities mentioned in OWASP:
 
-1.SQL Injection - https://github.com/lucif3rr/lucif3rr.github.io/blob/master/_posts/2014-06-29-SQLinjection.md
-2.Authentication - https://github.com/lucif3rr/lucif3rr.github.io/blob/master/_posts/2014-06-29-Authentication.md
-3.Cross Site Scripting(XSS) - https://github.com/lucif3rr/lucif3rr.github.io/blob/master/_posts/2014-06-29-XSS.md
-4.Unvalidated Redirects and Forwards - https://github.com/lucif3rr/lucif3rr.github.io/blob/master/_posts/2014-08-11-unvalidated%20redirects%20and%20forwards.md
-5.Security questions - https://github.com/lucif3rr/lucif3rr.github.io/blob/master/_posts/2014-08-11-securityquestions.md
-6.Input validation - https://github.com/lucif3rr/lucif3rr.github.io/blob/master/_posts/2014-06-29-input-validation.md
-7.Cross Site Request Forgery(CSRF) - https://github.com/lucif3rr/lucif3rr.github.io/blob/master/_posts/2014-06-29-cross-site.request-forgery.md
-8.Web Service Security - https://github.com/lucif3rr/lucif3rr.github.io/blob/master/_posts/2014-06-29-web-service-security.md
-9.C based toochain hardening - https://github.com/lucif3rr/lucif3rr.github.io/blob/master/_posts/2014-06-29-C-based-toolchain-hardening.md
-10.ClickJacking - https://github.com/lucif3rr/lucif3rr.github.io/blob/master/_posts/2014-06-29-Clickjacking.md
-11.JAAS - https://github.com/lucif3rr/lucif3rr.github.io/blob/master/_posts/2014-06-29-JAAS.md
-12.REpresentational State Transfer - https://github.com/lucif3rr/lucif3rr.github.io/blob/master/_posts/2014-06-29-REst.md
-13.Transport Layer Security(TLS) - https://github.com/lucif3rr/lucif3rr.github.io/blob/master/_posts/2014-06-29-Transport-Layer.md
-14.Cryptographic Security - https://github.com/lucif3rr/lucif3rr.github.io/blob/master/_posts/2014-06-29-cryptographic-storage.md
-15.DOTNET(.NET) Security - https://github.com/lucif3rr/lucif3rr.github.io/blob/master/_posts/2014-06-29-dotNet-security.md
-16.Logging - https://github.com/lucif3rr/lucif3rr.github.io/blob/master/_posts/2014-06-29-logging.md
-17.Pinning - https://github.com/lucif3rr/lucif3rr.github.io/blob/master/_posts/2014-06-29-pinning.md
-18.Password storage - https://github.com/lucif3rr/lucif3rr.github.io/blob/master/_posts/2014-08-11-passwordstorage.md
-19.Ruby on Rails - https://github.com/lucif3rr/lucif3rr.github.io/blob/master/_posts/2014-08-11-rubyonrails.md
-20.User privacy - https://github.com/lucif3rr/lucif3rr.github.io/blob/master/_posts/2014-08-11-userprivacy.md
+1.SQL Injection - https://lucif3rr.github.io/SQLinjection.html
+2.Authentication - https://lucif3rr.github.io/Authentication.html
+3.Cross Site Scripting(XSS) - https://lucif3rr.github.io/XSS.html
+4.Unvalidated Redirects and Forwards -https://lucif3rr.github.io/unvalidated%20redirects%20and%20forwards.html
+5.Security questions - https://lucif3rr.github.io/securityquestions.html
+6.Input validation - https://lucif3rr.github.io/input-validation.html
+7.Cross Site Request Forgery(CSRF) - https://lucif3rr.github.io/cross-site.request-forgery.html
+8.Web Service Security - https://lucif3rr.github.io/web-service-security.html
+9.C based toochain hardening - https://lucif3rr.github.io/C-based-toolchain-hardening.html
+10.ClickJacking - https://lucif3rr.github.io/Clickjacking.html
+11.JAAS - https://lucif3rr.github.io/JAAS.html
+12.REpresentational State Transfer - https://lucif3rr.github.io/REst.html
+13.Transport Layer Security(TLS) - https://lucif3rr.github.io/Transport-Layer.html
+14.Cryptographic Security - https://lucif3rr.github.io/cryptographic-storage.html
+15.DOTNET(.NET) Security - https://lucif3rr.github.io/dotNet-security.html
+16.Logging - https://lucif3rr.github.io/logging.html
+17.Pinning - https://lucif3rr.github.io/pinning.html
+18.Password storage - https://lucif3rr.github.io/passwordstorage.html
+19.Ruby on Rails - https://lucif3rr.github.io/rubyonrails.html
+20.User privacy - https://lucif3rr.github.io/userprivacy.html
